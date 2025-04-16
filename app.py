@@ -1,6 +1,7 @@
 from flask import Flask, request, render_template
 import pandas as pd
 import joblib
+import numpy as np
 
 # Load the trained model
 model = joblib.load('loss_prediction_model.pkl')
@@ -19,11 +20,21 @@ def home():
 # Route to handle form submission and prediction
 @app.route('/predict', methods=['POST'])
 def predict():
-    # Get form data
+    # Get form data and convert Annual Revenue to proper format
+    annual_revenue = (
+        pd.Series(request.form['Annual Revenue'])
+        .str.replace('[\$,]', '', regex=True)  # Remove $ and commas
+        .str.replace(' billion', '000', regex=True)  # Convert billion to millions
+        .str.replace(' million', '', regex=True)  # Remove word 'million'
+        .astype(float)  # Convert to float
+        .mul(1_000_000)  # Multiply by 1,000,000 to get actual value
+        .astype(np.int64)  # Convert to 64-bit integer
+    ).iloc[0]  # Get the single value
+    
     input_data = {
         'Industry Subsector': request.form['Industry Subsector'],
         'Company Size': request.form['Company Size'],
-        'Annual Revenue': int(request.form['Annual Revenue']),
+        'Annual Revenue': annual_revenue,
         'Number of Employees': int(request.form['Number of Employees']),
         'Geographic Region': request.form['Geographic Region'],
         'Attack Vector/Type of Breach': request.form['Attack Vector/Type of Breach'],

@@ -12,17 +12,38 @@
         <label for="Industry Subsector">Industry Subsector:</label>
         <input type="text" id="Industry Subsector" name="Industry Subsector" required>
 
-        <label for="Company Size">Company Size:</label>
-        <input type="text" id="Company Size" name="Company Size" required>
+        <div class="select-wrapper">
+            <label for="Company Size">Company Size:</label>
+            <select id="Company Size" name="Company Size" required>
+                <option value="">Select a size...</option>
+                <option value="Small">Small</option>
+                <option value="Medium">Medium</option>
+                <option value="Large">Large</option>
+                <option value="Enterprise">Enterprise</option>
+            </select>
+        </div>
 
-        <label for="Annual Revenue">Annual Revenue (in millions):</label>
-        <input type="number" id="Annual Revenue" name="Annual Revenue" required>
+        <label for="Annual Revenue">Annual Revenue (e.g., "$2,500 million" or "3.4 billion"):</label>
+        <input type="text" id="Annual Revenue" name="Annual Revenue" required>
 
         <label for="Number of Employees">Number of Employees:</label>
         <input type="number" id="Number of Employees" name="Number of Employees" required>
 
-        <label for="Geographic Region">Geographic Region:</label>
-        <input type="text" id="Geographic Region" name="Geographic Region" required>
+        <div class="select-wrapper">
+            <label for="Geographic Region">Geographic Region:</label>
+            <select id="Geographic Region" name="Geographic Region" required>
+                <option value="">Select a region...</option>
+                <option value="North America">North America</option>
+                <option value="Asia-Pacific">Asia-Pacific</option>
+                <option value="Global">Global</option>
+                <option value="Europe">Europe</option>
+                <option value="Middle East">Middle East</option>
+                <option value="Latin America">Latin America</option>
+                <option value="Caribbean">Caribbean</option>
+            </select>
+        </div>
+
+        <h5>Past incidents</h5>
 
         <label for="Attack Vector/Type of Breach">Attack Vector/Type of Breach:</label>
         <input type="text" id="Attack Vector/Type of Breach" name="Attack Vector/Type of Breach" required>
