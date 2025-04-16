@@ -1,0 +1,96 @@
+Company Name,Date of Attack,Industry Subsector,Company Size,Annual Revenue,Number of Employees,Geographic Region,Attack Vector/Type of Breach,Financial Loss,Time to Patch/Contain (days)
+Bybit,2/21/2025,Cryptocurrency Exchange,Large,"$2,500 million",1200,Asia-Pacific,Cold Wallet Exploitation,"$1,460,000,000",3
+Phemex,2/15/2025,Cryptocurrency Exchange,Medium,$350 million,420,Asia-Pacific,API Key Compromise,"$69,100,000",2
+Infini Protocol,2/10/2025,DeFi Platform,Small,$45 million,28,Global,Smart Contract Vulnerability,"$50,000,000",4
+zkLend,2/12/2025,DeFi Lending Platform,Small,$30 million,25,Europe,Smart Contract Exploit,"$9,500,000",5
+Finastra,2/5/2025,Financial Technology,Large,"$2,100 million",10000,North America,Data Breach (SFTP),"$18,500,000",9
+Insight Partners,1/25/2025,Venture Capital,Large,"$3,500 million",1150,North America,Social Engineering,"$22,300,000",18
+Zacks Investment,1/18/2025,Investment Research,Medium,$380 million,1600,North America,Data Breach,"$15,700,000",27
+IMI Financial,1/10/2025,Financial Services,Medium,$875 million,3200,Europe,Ransomware,"$8,200,000",14
+CarMoney,12/15/2024,Loan Provider,Medium,$450 million,920,Europe,Targeted Hack,"$11,400,000",10
+BlockFi,12/8/2024,Cryptocurrency Lending,Medium,$580 million,850,North America,Web3 Wallet Exploit,"$45,000,000",3
+Sault Tribe Federal Credit Union,11/30/2024,Credit Union,Small,$75 million,110,North America,Ransomware,"$5,000,000",21
+Abracadabra Money,11/25/2024,DeFi Platform,Small,$65 million,35,Global,Flash Loan Attack,"$13,000,000",1
+Ionic DeFi,11/20/2024,DeFi Platform,Small,$45 million,24,Global,Protocol Exploit,"$8,500,000",2
+AlphaFinance Group,11/10/2024,Asset Management,Medium,$780 million,425,Europe,Phishing,"$7,200,000",5
+First Western Bank,10/28/2024,Banking,Medium,$890 million,1750,North America,Ransomware,"$6,800,000",18
+Zoth Protocol,10/21/2024,DeFi Platform,Small,$28 million,18,Global,Smart Contract Vulnerability,"$8,400,000",1
+Golden Trust Insurance,10/15/2024,Insurance,Medium,$650 million,2100,Europe,Ransomware,"$12,500,000",23
+Finex Capital,10/8/2024,Investment Firm,Medium,$420 million,380,Europe,Business Email Compromise,"$9,300,000",7
+RapidPay,10/1/2024,Payment Processor,Medium,$560 million,820,North America,API Vulnerability,"$17,800,000",4
+TrustBank Nigeria,9/25/2024,Banking,Medium,$380 million,2500,Africa,Insider Threat,"$8,900,000",12
+1inch Exchange,9/18/2024,Cryptocurrency Exchange,Medium,$320 million,145,Global,Smart Contract Vulnerability,"$5,000,000",3
+Change Healthcare,9/10/2024,Healthcare Finance,Large,"$3,400 million",15000,North America,Ransomware,"$130,000,000",35
+Credit Agricole,9/5/2024,Banking,Enterprise,"$25,600 million",147000,Europe,DDoS,"$5,700,000",2
+Alpha Capital Markets,8/28/2024,Investment Firm,Medium,$450 million,320,Europe,Phishing,"$6,200,000",8
+Sentinel Insurance,8/20/2024,Insurance,Medium,$780 million,3200,North America,Data Breach,"$12,300,000",17
+BitMart,8/15/2024,Cryptocurrency Exchange,Medium,$290 million,380,Global,Hot Wallet Compromise,"$24,500,000",1
+National Australia Bank,8/10/2024,Banking,Enterprise,"$18,700 million",32000,Asia-Pacific,Third-party Vendor Breach,"$22,800,000",15
+Cayman Investment Trust,8/5/2024,Investment Firm,Medium,$620 million,450,Caribbean,Spear Phishing,"$14,700,000",6
+CryptoVault,7/30/2024,Cryptocurrency Custody,Small,$85 million,75,North America,Private Key Compromise,"$32,000,000",2
+Allianz Digital,7/25/2024,Insurance,Enterprise,"$21,500 million",155000,Europe,API Vulnerability,"$18,200,000",7
+Ziraat Bank,7/20/2024,Banking,Large,"$7,800 million",24500,Middle East,DDoS,"$4,600,000",3
+Phoenix Capital,7/15/2024,Investment Firm,Medium,$540 million,480,North America,Credential Theft,"$9,800,000",8
+Southern Trust,7/10/2024,Banking,Medium,$680 million,1700,North America,Ransomware,"$7,500,000",22
+CoinsPaid,7/5/2024,Cryptocurrency Payment,Small,$95 million,120,Europe,Phishing,"$37,000,000",4
+IndusInd Bank,6/30/2024,Banking,Large,"$3,200 million",30000,Asia-Pacific,Mobile App Vulnerability,"$14,800,000",5
+Swiss RE Digital,6/25/2024,Insurance,Enterprise,"$12,300 million",14500,Europe,Data Breach,"$16,500,000",19
+Stake.com,6/20/2024,Cryptocurrency Gambling,Medium,$350 million,420,Global,Infrastructure Hack,"$41,000,000",1
+Worldpay,6/15/2024,Payment Processor,Large,"$8,700 million",11000,Global,API Exploitation,"$26,500,000",6
+Nordea Bank,6/10/2024,Banking,Enterprise,"$11,600 million",28000,Europe,DDoS,"$3,700,000",2
+West African Investment Bank,6/5/2024,Banking,Medium,$420 million,1800,Africa,SWIFT System Compromise,"$15,300,000",9
+Robinhood,5/30/2024,Investment Platform,Large,"$2,100 million",3800,North America,Social Engineering,"$20,000,000",4
+Aon Insurance,5/25/2024,Insurance,Enterprise,"$13,500 million",50000,Global,Data Breach,"$28,700,000",21
+Uniswap,5/20/2024,DeFi Exchange,Medium,$280 million,120,Global,Frontend Attack,"$22,400,000",1
+American Express Thailand,5/15/2024,Financial Services,Large,"$4,200 million",5200,Asia-Pacific,Third-party Vendor Breach,"$9,500,000",14
+CMC Markets,5/10/2024,Trading Platform,Medium,$650 million,850,Europe,Credential Stuffing,"$7,200,000",5
+Anchorage Digital,5/5/2024,Cryptocurrency Custody,Medium,$340 million,280,North America,Insider Threat,"$45,000,000",7
+Kenya Commercial Bank,4/30/2024,Banking,Large,"$1,200 million",7500,Africa,Middleware Vulnerability,"$13,400,000",11
+Manulife Financial,4/25/2024,Insurance,Enterprise,"$15,800 million",38000,North America,Ransomware,"$42,300,000",18
+PancakeSwap,4/20/2024,DeFi Exchange,Small,$70 million,60,Global,DNS Hijacking,"$4,800,000",1
+GarantiBank,4/15/2024,Banking,Large,"$2,900 million",18500,Europe,DDoS,"$5,300,000",3
+Oaktree Capital,4/10/2024,Asset Management,Large,"$5,400 million",1000,North America,Phishing,"$11,500,000",9
+Zurich Insurance Digital,4/5/2024,Insurance,Enterprise,"$18,900 million",55000,Europe,Cloud Misconfiguration,"$17,200,000",6
+Curve Finance,3/31/2024,DeFi Platform,Small,$55 million,42,Global,Frontend Attack,"$13,500,000",1
+Credit Suisse Asia,3/25/2024,Banking,Enterprise,"$22,700 million",45000,Asia-Pacific,Data Breach,"$32,400,000",16
+Northern Trust,3/20/2024,Asset Management,Large,"$6,800 million",21100,North America,Ransomware,"$23,600,000",24
+Kraken,3/15/2024,Cryptocurrency Exchange,Large,"$1,500 million",3200,North America,SIM Swapping,"$5,200,000",2
+UniCredit,3/10/2024,Banking,Enterprise,"$21,300 million",87000,Europe,Third-party Vendor Breach,"$19,700,000",12
+BDO Banking,3/5/2024,Banking,Enterprise,"$11,500 million",38000,Asia-Pacific,Insider Threat,"$16,800,000",10
+Fidelity Digital Assets,2/29/2024,Asset Management,Enterprise,"$24,700 million",60000,North America,Data Breach,"$15,400,000",7
+Compound,2/25/2024,DeFi Lending,Small,$80 million,42,Global,Smart Contract Vulnerability,"$31,200,000",3
+BBVA Mexico,2/20/2024,Banking,Large,"$7,900 million",33000,Latin America,DDoS,"$4,300,000",4
+AXA Investment Managers,2/15/2024,Asset Management,Large,"$8,300 million",15800,Europe,Ransomware,"$18,700,000",17
+MakerDAO,2/10/2024,DeFi Platform,Small,$95 million,75,Global,Oracle Manipulation,"$9,300,000",2
+Deutsche Bank Asia,2/5/2024,Banking,Enterprise,"$28,600 million",85000,Asia-Pacific,Data Breach,"$27,800,000",14
+State Farm Insurance,1/30/2024,Insurance,Enterprise,"$89,300 million",58000,North America,Ransomware,"$35,200,000",20
+KuCoin,1/25/2024,Cryptocurrency Exchange,Medium,$580 million,750,Asia-Pacific,API Key Compromise,"$18,500,000",3
+Banco Santander Brazil,1/20/2024,Banking,Enterprise,"$14,700 million",45000,Latin America,Third-party Vendor Breach,"$21,500,000",11
+Apollo Global Management,1/15/2024,Asset Management,Large,"$4,200 million",2400,North America,Phishing,"$8,700,000",8
+Toronto-Dominion Bank,1/10/2024,Banking,Enterprise,"$38,400 million",89000,North America,Mobile App Vulnerability,"$12,300,000",6
+Aviva Digital,1/5/2024,Insurance,Enterprise,"$15,800 million",31000,Europe,Data Breach,"$14,600,000",15
+Synthetix Protocol,12/30/2023,DeFi Platform,Small,$75 million,55,Global,Smart Contract Vulnerability,"$11,400,000",1
+DBS Bank,12/25/2023,Banking,Enterprise,"$16,500 million",33000,Asia-Pacific,DDoS,"$6,800,000",3
+Greenwich Capital,12/20/2023,Investment Firm,Medium,$720 million,430,North America,Insider Threat,"$12,400,000",5
+Nationwide Building Society,12/15/2023,Banking,Large,"$9,800 million",18000,Europe,Ransomware,"$23,500,000",22
+BalancerDAO,12/10/2023,DeFi Platform,Small,$60 million,38,Global,Smart Contract Vulnerability,"$8,400,000",1
+ANZ Bank,12/5/2023,Banking,Enterprise,"$17,200 million",40000,Asia-Pacific,Third-party Vendor Breach,"$18,900,000",13
+Liberty Mutual Insurance,11/30/2023,Insurance,Enterprise,"$43,800 million",45000,North America,Data Breach,"$21,700,000",16
+Coinbase,11/25/2023,Cryptocurrency Exchange,Large,"$3,400 million",4700,North America,Social Engineering,"$13,800,000",4
+Royal Bank of Scotland,11/20/2023,Banking,Enterprise,"$25,700 million",67000,Europe,DDoS,"$7,200,000",4
+BlackRock Digital,11/15/2023,Asset Management,Enterprise,"$98,200 million",18000,North America,Business Email Compromise,"$15,300,000",7
+Sushi DeFi,11/10/2023,DeFi Platform,Small,$65 million,45,Global,Frontend Attack,"$7,800,000",1
+ICICI Bank,11/5/2023,Banking,Enterprise,"$14,900 million",105000,Asia-Pacific,API Vulnerability,"$12,500,000",9
+HSBC Private Banking,11/1/2023,Banking,Enterprise,"$51,700 million",219000,Global,Targeted Breach,"$42,000,000",18
+Standard Chartered Africa,10/25/2023,Banking,Enterprise,"$19,600 million",82000,Africa,Third-party Vendor Breach,"$15,800,000",11
+OKX Exchange,10/20/2023,Cryptocurrency Exchange,Medium,$850 million,1200,Asia-Pacific,SIM Swapping,"$6,700,000",2
+Banco do Brasil,10/15/2023,Banking,Enterprise,"$12,800 million",92000,Latin America,Ransomware,"$16,300,000",19
+Aave Protocol,10/10/2023,DeFi Lending,Small,$85 million,70,Global,Price Oracle Manipulation,"$5,600,000",1
+Legal & General Digital,10/5/2023,Insurance,Enterprise,"$18,600 million",10000,Europe,Data Breach,"$11,200,000",15
+Barclays Capital,10/1/2023,Investment Banking,Enterprise,"$32,700 million",81000,Europe,Phishing,"$14,800,000",6
+Gemini Trust,9/25/2023,Cryptocurrency Exchange,Medium,$730 million,950,North America,API Vulnerability,"$10,500,000",3
+Morgan Stanley Wealth,9/20/2023,Wealth Management,Enterprise,"$47,500 million",75000,North America,Third-party Vendor Breach,"$23,800,000",12
+Goldman Sachs Asset Management,9/15/2023,Asset Management,Enterprise,"$53,200 million",45000,North America,Business Email Compromise,"$20,500,000",8
+JPMorgan Chase Treasury,9/10/2023,Banking,Enterprise,"$131,400 million",255000,North America,Targeted Attack,"$38,700,000",10
+Citigroup Global Markets,9/5/2023,Investment Banking,Enterprise,"$74,300 million",235000,Global,Sophisticated Hack,"$45,200,000",14
+Bank of America Merrill Lynch,9/1/2023,Investment Banking,Enterprise,"$91,200 million",213000,North America,Insider Theft,"$56,800,000",15
