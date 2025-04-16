@@ -3,6 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error
 import joblib
+import numpy as np  # Add this import at the top
 
 # Load the dataset
 data = pd.read_csv('loss.csv')
@@ -17,16 +18,30 @@ data = data.drop(columns=[
     'Industry Subsector',
 ])
 
-data['Financial Loss'] = data['Financial Loss'].replace('[\$,]', '', regex=True).astype(int)
+# Clean Financial Loss column
+data['Financial Loss'] = (
+    data['Financial Loss']
+    .str.replace('[\$,]', '', regex=True)  # Remove $ and commas
+    .astype(float)  # Convert to float first
+    .astype(int)    # Convert to integer
+)
+
+# Clean Annual Revenue column
 data['Annual Revenue'] = (
     data['Annual Revenue']
-    .replace('[\$,]', '', regex=True)  # Remove $ and commas
-    .replace(' billion', '000', regex=True)  # Convert billion to million
-    .replace(' million', '', regex=True)  # Remove word 'million'
-    .astype(float)  # Convert to float first
-    .mul(1_000_000)  # Multiply by 1,000,000 to represent actual value
-    .astype(int)  # Convert back to integer
+    .str.replace('[\$,]', '', regex=True)  # Remove $ and commas
+    .str.replace(' billion', '000', regex=True)  # Convert billion to millions
+    .str.replace(' million', '', regex=True)  # Remove word 'million'
+    .astype(float)  # Convert to float
+    .mul(1_000_000)  # Multiply by 1,000,000 to get actual value
+    .astype(np.int64)  # Convert to 64-bit integer to handle larger numbers
 )
+
+# Add debug prints to verify the conversion
+print("\nSample Financial Losses:")
+print(data['Financial Loss'].head())
+print("\nSample Annual Revenues:")
+print(data['Annual Revenue'].head())
 
 data = pd.get_dummies(data, drop_first=True)
 
@@ -81,11 +96,11 @@ if __name__ == "__main__":
     example_input = {
         'Industry Subsector': 'Healthcare Finance',
         'Company Size': 'Large',
-        'Annual Revenue': 1000 * 1_000_000,  # Convert millions to actual value
-        'Number of Employees': 3000,
-        'Geographic Region': 'Asia-Pacific',
-        'Attack Vector/Type of Breach': 'Cold Wallet Exploitation',
-        'Time to Patch/Contain (days)': 5
+        'Annual Revenue': 3400 * 1_000_000,  # $3.4 billion
+        'Number of Employees': 15000,
+        'Geographic Region': 'North America',
+        'Attack Vector/Type of Breach': 'Ransomware',
+        'Time to Patch/Contain (days)': 35
     }
     
     # Predict financial loss
